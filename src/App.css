@@ -1,4 +1,7 @@
-
+@fontface {
+  font-family: 'Roboto';
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap')
+}
 *{
   box-sizing: border-box;
   margin: 0%;

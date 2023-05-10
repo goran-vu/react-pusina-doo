@@ -4,6 +4,9 @@ import Navbar from '../components/navbar';
 import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
 import { homeObjOne } from '../components/InfoSection/Data';
+import "@fontsource/encode-sans-expanded";
+import Mehanizacija from '../components/Mehanizacija'
+
 
 const Home = () => {
     const [isOpen, setIsOpen]= useState(false)
@@ -18,6 +21,7 @@ const Home = () => {
         <Navbar toggle={toggle}/>
         <HeroSection/>
         <InfoSection {...homeObjOne}/>
+        <Mehanizacija/>
     </>
   )
 }

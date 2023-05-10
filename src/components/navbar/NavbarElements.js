@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import {Link as LinkR} from 'react-router-dom'
 import {Link as LinkS} from 'react-scroll'
-import "@fontsource/encode-sans-expanded";
+
 import Logo from '../../images/pusina_logo1.png'
 
 export const Nav=styled.nav`
@@ -16,7 +16,7 @@ export const Nav=styled.nav`
     top:0%;
     z-index:10;
 
-    @media screen and (max-widht:960px){
+    @media screen and (max-width:960px){
         transition: 0.8s all ease;
     }
     `;
