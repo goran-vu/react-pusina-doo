@@ -6,7 +6,7 @@ import { productData, responsive } from "./data";
 import{
   App,
   Container,
-  Naslov,
+  // Naslov,
 } from './Mehanizacija';
 const product = productData.map((item) => (
   <Product
@@ -23,7 +23,7 @@ const Mehanizacija =()=>{
     <>
     <App>
       <Container>
-        <Naslov>Mehanizacija</Naslov>
+        {/* <Naslov>Mehanizacija</Naslov> */}
         <Carousel  
           responsive={responsive}
           partialVisible={true} 

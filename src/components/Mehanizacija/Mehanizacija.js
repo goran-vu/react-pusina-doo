@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 export const App=styled.div`
   background-color: #f5c71a;
+  padding-top: 7%;
+  padding-bottom: 5%;
 `
 export const Container=styled.div`
-  position: relative;
   background-color: #f5c71a;
   margin: auto;
-  padding-top: 2%;
   padding: 20px;
   width: 80%;
   @media screen and (max-width:830px){
@@ -16,7 +16,8 @@ export const Container=styled.div`
 `
 export const Naslov=styled.div`
   text-align: center;
-  margin-bottom: 5%;
+  margin-top: 7%;
+  margin-bottom: 10%;
   font-size:200%;
   font-weight:700;
 `
@@ -25,7 +26,6 @@ export const ProductImg=styled.img`
   width: 230px;
   border-radius: 50%;
   padding: 4px;
-  background: #f5c71a;
   margin-bottom: 24px;
 `
 
@@ -35,13 +35,12 @@ export const Card=styled.div`
   border-radius: 12px;
   padding: 30px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin: 5px;
+  margin: 17px;
   transition: all 0.4s ease;
-  
+  /* &:hover{
+  transform: translateY(-15px);}
+   */
 `
-/* .card:hover{
-  transform: translateY(-15px);
-} */
 export const Name=styled.div`
   text-align: center;
 `
@@ -52,4 +51,3 @@ export const Price=styled.div`
   font-weight: 700;
   font-size: 22px;
 `
-
